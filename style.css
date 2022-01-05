@@ -49,13 +49,21 @@ body {
 
 .half-width-seventy {
 	width: 70%;
-	margin-left: 5%;
+	/* margin-left: 5%; */
 	margin-right: 5%;
 }
 
 .half-width-thirty {
 	width: 30%;
+	/* margin-left: 5%; */
+}
+
+.margin-l {
 	margin-left: 5%;
+}
+
+.margin-r {
+	margin-right: 5%;
 }
 
 .shape-pic {
