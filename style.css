@@ -27,12 +27,17 @@ body {
 	line-height: 28px;
 }
 
-.stay-focused {
-	color: #333333;
-
+.big-title {
+	font-size: 48px;
+	font-weight: bold;
 }
 
-.mission {
+.small-title {
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.orange-color {
 	color: #FFAD5A;
 }
 
@@ -44,12 +49,12 @@ body {
 
 .half-width-sixty {
 	width: 60%;
-	margin-left: 2%;
+	margin-left: 5%;
 }
 
 .half-width-fourty {
 	width: 40%;
-	margin-left: 2%;
+	margin-left: 5%;
 }
 
 .half-width-fourty img {
@@ -80,4 +85,48 @@ body {
 	font-weight: 500;
 	color: white;
 	margin-bottom: 20px;
+}
+
+.my-mission-section {
+	background-image: url(images/Group\ 57404.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-position-y: 110%;
+	background-position-x: 104%;
+}
+
+.my-mission-section h1 {
+	text-align: center;
+}
+
+.mission-vission-goals {
+	display: flex;
+	justify-content: center;
+}
+
+.mvg {
+	width: 25%;
+	padding: 25px;
+	margin: 15px;
+	border-radius: 26px;
+}
+
+.mvg img {
+	width: 200px;
+}
+
+.mvg h2 {
+	font-weight: 600;
+}
+
+.mission {
+	background-color: rgba(79, 157, 166, 0.1);
+}
+
+.vission {
+	background-color: rgba(255, 89, 89, 0.1);
+}
+
+.goals {
+	background-color: #FFF4D6;
 }
