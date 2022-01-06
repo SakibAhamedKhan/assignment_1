@@ -50,7 +50,7 @@ body {
 .half-width-seventy {
 	width: 70%;
 	/* margin-left: 5%; */
-	margin-right: 5%;
+	/* margin-right: 5%; */
 }
 
 .half-width-thirty {
@@ -152,4 +152,40 @@ body {
 	background-size: 227px;
 	background-position-y: 30%;
 	background-position-x: 1%;
+}
+
+.global-section {
+	height: 500px;
+	margin-bottom: 10%;
+	background-image: url(images/shape-1.png);
+	background-repeat: no-repeat;
+	background-size: 200px;
+	background-position: right;
+	background-position-y: 90%;
+}
+
+.contact-section h1 {
+	text-align: center;
+}
+
+.message-contact {
+	display: flex;
+	margin-top: 5%;
+	justify-content: center;
+}
+
+.message-send {
+	background: rgba(79, 157, 166, 0.1);
+	border-bottom-left-radius: 26px;
+	border-top-left-radius: 26px;
+	padding: 50px;
+	width: 35%;
+}
+
+.contact-info {
+	background: #FFF4D6;
+	border-top-right-radius: 26px;
+	border-bottom-right-radius: 26px;
+	width: 25%;
+
 }
