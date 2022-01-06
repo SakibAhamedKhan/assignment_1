@@ -149,7 +149,7 @@ body {
 .develop-section {
 	background-image: url(images/shape-1.png);
 	background-repeat: no-repeat;
-	background-size: 227px;
+	background-size: 11%;
 	background-position-y: 30%;
 	background-position-x: 1%;
 }
@@ -159,7 +159,7 @@ body {
 	margin-bottom: 10%;
 	background-image: url(images/shape-1.png);
 	background-repeat: no-repeat;
-	background-size: 200px;
+	background-size: 11%;
 	background-position: right;
 	background-position-y: 90%;
 }
