@@ -11,6 +11,7 @@ body {
 
 .font2 {
 	font-family: 'Poppins', sans-serif;
+	text-align: justify;
 }
 
 .font3 {
@@ -98,6 +99,10 @@ body {
 	margin-top: 10px;
 }
 
+.mission-img {
+	margin-bottom: 15px;
+}
+
 .my-mission-section {
 	background-image: url(images/Group\ 57404.png);
 	background-repeat: no-repeat;
@@ -156,7 +161,7 @@ body {
 
 .global-section {
 	height: 500px;
-	margin-bottom: 10%;
+	margin-bottom: -2%;
 	background-image: url(images/shape-1.png);
 	background-repeat: no-repeat;
 	background-size: 11%;
@@ -174,7 +179,7 @@ body {
 
 .message-contact {
 	display: flex;
-	margin-top: 5%;
+	margin-top: 3%;
 	justify-content: center;
 }
 
@@ -212,6 +217,8 @@ body {
 	border: 3px solid #ff595987;
 	font-size: 18px;
 	margin-bottom: 15px;
+
+
 }
 
 .message_field {
@@ -227,8 +234,14 @@ body {
 }
 
 .submit_button {
-	width: 80%;
-
+	width: 92%;
+	text-decoration: none;
+	background-color: #FF5959;
+	padding: 10px;
+	text-align: center;
+	border-radius: 5px;
+	font-weight: 500;
+	color: white;
 }
 
 .email-call-address {
@@ -236,4 +249,30 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+}
+
+#footer-section {
+	width: 100%;
+	height: 177px;
+	background-color: #0B0D17;
+	color: white;
+}
+
+.foot-align {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.foot-align h1 {
+	line-height: 44px;
+	font-size: 36px;
+}
+
+.foot-align p {
+	color: #D9DBE1;
+	font-size: 14px;
+	line-height: 24px;
 }
